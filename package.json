@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wguilherme/clean-nodejs-api-solid-tdd-typescript/issues"
   },
-  "homepage": "https://github.com/wguilherme/clean-nodejs-api-solid-tdd-typescript#readme"
+  "homepage": "https://github.com/wguilherme/clean-nodejs-api-solid-tdd-typescript#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.2"
+  }
 }
