@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // output directory
+    "module": "commonjs", // Specify what module code is generated.
+    "target": "es2019", // Set the JavaScript language version for emitted JavaScript and include compatible library declarations. // see more at node.green
+    "esModuleInterop": true, //Emit additional JavaScript to ease support for importing CommonJS modules
+    "allowJs": true, // Allow javascript files to be compiled.
+
+
+  }
+}
