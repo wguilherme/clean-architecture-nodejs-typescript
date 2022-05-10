@@ -20,3 +20,7 @@ eslint@6.8.0 \
 @typescript-eslint/eslint-plugin@2.16.0 \
 eslint-config-standard-with-typescript@11.0.1 \
 eslint-plugin-node@9.2.0
+
+## Check for updates
+npm i -g npm-check
+npm-check -s -u
