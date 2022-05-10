@@ -3,5 +3,8 @@
   "parserOptions": {
     "project": "./tsconfig.json",
     "warnOnUnsupportedTypeScriptVersion": false
+  },
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off",
   }
 }
