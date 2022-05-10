@@ -24,3 +24,8 @@ eslint-plugin-node@9.2.0
 ## Check for updates
 npm i -g npm-check
 npm-check -s -u
+
+## Add new husky hook
+
+// example
+npx husky add .husky/pre-commit "lint-staged"    
