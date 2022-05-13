@@ -30,6 +30,9 @@ npm-check -s -u
 // example
 npx husky add .husky/pre-commit "lint-staged"    
 
+// add a pre-push
+npx husky add .husky/pre-push "npm run test:ci"    
+
 
 ## Amend commit 
 git commit --amend --no-edit
