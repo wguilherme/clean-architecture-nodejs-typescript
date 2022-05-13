@@ -8,4 +8,5 @@ module.exports = {
   transform: {
     '.+\\.ts&': 'ts-jest' // convert all ts files to js before testing
   }
+  // testTimeout: 30000
 }
