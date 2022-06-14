@@ -16,6 +16,10 @@ export const MongoHelper = {
 
   getCollection (name: string): Collection {
     return this.client.db().collection(name)
+  },
+
+  async showCollection (collectionName: string, id: string): Promise<void> {
+    return this.getCollection(collectionName).findOne({ _id: id })
   }
 
 }
