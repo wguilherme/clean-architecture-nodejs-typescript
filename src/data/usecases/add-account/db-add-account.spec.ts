@@ -104,7 +104,7 @@ describe('DbAddAccount Usecase', () => {
       password: 'valid_password'
     }
     const account = await sut.add(accountData)
-    console.log('debug', account)
+
     expect(account).toEqual({
       id: 'valid_id',
       name: 'valid_name',
